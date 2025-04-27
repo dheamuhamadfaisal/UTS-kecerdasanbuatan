@@ -4,16 +4,21 @@
 Kasus:
 Membuat sistem AI yang mampu menentukan jenis hama tanaman berdasarkan gejala seperti:
 
-1. Daun menguning
-2. Terdapat bercak hitam
-3. Daun berlubang
-4. Tanaman layu
+  a. Daun menguning
+  b. Terdapat bercak hitam
+  c. Daun berlubang
+  d. Tanaman layu
 
 Metode:
-1. Menggunakan logika proposisional.
-2. Menyusun minimal 4 aturan.
-3. Implementasi menggunakan bahasa Python.
+  a. Menggunakan logika proposisional.
+  b. Menyusun minimal 4 aturan.
+  c. Implementasi menggunakan bahasa Python.
 
 Proses Inferensi:
 Input gejala tanaman → Cek aturan → Output jenis hama.
 
+2. Review Jurnal
+   a. Mencari artikel AI tentang penerapan sistem cerdas dibidang tertentu.
+   b. Review Jurnal tersebut.
+   c. Membuat ringkasan meliputi tujuan, metode dan manfaat.
+   d. Menambahkan ide pengembangan lanjutan dan ide aplikasi serupa untuk          lingkungan sekitar.
