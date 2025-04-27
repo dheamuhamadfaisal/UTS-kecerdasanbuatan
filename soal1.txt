@@ -1,0 +1,47 @@
+Aturan Rules
+
+1. Jika daun menguning dan tanaman layu, maka kemungkinan ada hama kutu putih.
+
+2. Jika daun berlubang dan terdapat bercak hitam, maka kemungkinan ada hama ulat grayak.
+
+3. Jika daun menguning dan terdapat bercak hitam, maka kemungkinan ada hama thrips.
+
+4. Jika daun berlubang tanpa bercak hitam, maka kemungkinan ada hama kumbang daun.
+
+
+Logika Proposisional:
+
+P = daun menguning
+
+Q = bercak hitam
+
+R = daun berlubang
+
+S = tanaman layu
+
+
+Aturan logika:
+
+(P ∧ S) → Hama: Kutu Putih
+
+(R ∧ Q) → Hama: Ulat Grayak
+
+(P ∧ Q) → Hama: Thrips
+
+(R ∧ ¬Q) → Hama: Kumbang Daun
+
+
+Pseudocode
+
+Input gejala tanaman
+If daun menguning and tanaman layu:
+    Hama = "Kutu Putih"
+Else if daun berlubang and bercak hitam:
+    Hama = "Ulat Grayak"
+Else if daun menguning and bercak hitam:
+    Hama = "Thrips"
+Else if daun berlubang and tidak ada bercak hitam:
+    Hama = "Kumbang Daun"
+Else:
+    Hama = "Hama tidak diketahui"
+Tampilkan Hama
